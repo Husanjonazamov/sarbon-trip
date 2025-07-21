@@ -30,7 +30,7 @@
     <div class="upper-head clearfix" style="background-color: #145c37;">
         <div class="container">
             <div class="contact-info">
-                <p><i class="flaticon-phone-call"></i>@lang('Phone') +998-97-731-00-07</p>
+                <p><i class="flaticon-phone-call"></i>@lang('Phone') +998-99-548-45-55</p>
                 <p><i class="flaticon-mail"></i><a href="mailto:info@sarbon-trip.uz" style="color: white;"></a>info@sarbon-trip.uz</p>
             </div>
             <div class="login-btn pull-right">
@@ -181,7 +181,7 @@
     <div class="about-location">
         <ul>
             <li><i class="flaticon-maps-and-flags" aria-hidden="true"></i> @lang('Location')</li>
-            <li><i class="flaticon-phone-call"></i> +998-97-731-00-07</li>
+            <li><i class="flaticon-phone-call"></i> +998-99-548-45-55</li>
             <li><i class="flaticon-mail"></i> <a href="mailto:info@sarbon-trip.uz">info@sarbon-trip.uz</a></li>
         </ul>
     </div>

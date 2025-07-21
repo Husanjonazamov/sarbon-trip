@@ -76,13 +76,13 @@
                         <div class="contact-location">
                             <ul>
                                 <li><i class="flaticon-maps-and-flags" aria-hidden="true"></i>TOSHKENT SHAHRI, UCHTEPA TUMANI, VATAN МФЙ, 24 MAVZESI, 52-UY, 40-XONADON</li>
-                                <li><i class="flaticon-phone-call"></i>+998-97-731-00-07</li>
+                                <li><i class="flaticon-phone-call"></i>+998-99-548-45-55</li>
                                 <li><i class="flaticon-mail"></i> <a href="mailto:info@sarbon-trip.uz">info@sarbon-trip.uz</a></li>
                             </ul>
                         </div>
                         <div class="footer-social-links">
                             <ul>
-                                <li class="social-icon"><a href="https://t.me/turisttour"><i class="fa fa-telegram"
+                                <li class="social-icon"><a href="https://t.me/sarbontrip"><i class="fa fa-telegram"
                                                                                    aria-hidden="true"></i></a></li>
                                 <li class="social-icon"><a href="https://www.instagram.com/turisttour.uz/"><i class="fa fa-instagram"
                                                                                     aria-hidden="true"></i></a></li>
