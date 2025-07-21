@@ -20,10 +20,11 @@ services:
         volumes:
             - '.:/var/www/html'
         networks:
-            - sail
+            - samira_travel_net
         depends_on:
             - mysql
             - redis
+
     mysql:
         image: 'mysql/mysql-server:8.0'
         environment:
@@ -34,10 +35,10 @@ services:
             MYSQL_PASSWORD: '${DB_PASSWORD}'
             MYSQL_ALLOW_EMPTY_PASSWORD: 1
         volumes:
-            - 'sail-mysql:/var/lib/mysql'
+            - 'sarbon-mysql:/var/lib/mysql'   # Yangi volume nomi
             - './vendor/laravel/sail/database/mysql/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh'
         networks:
-            - sail
+            - samira_travel_net
         healthcheck:
             test:
                 - CMD
@@ -46,24 +47,27 @@ services:
                 - '-p${DB_PASSWORD}'
             retries: 3
             timeout: 5s
+
     redis:
-            image: 'redis:alpine'
-            volumes:
-                - 'sail-redis:/data'
-            networks:
-                - sail
-            healthcheck:
-                test:
-                    - CMD
-                    - redis-cli
-                    - ping
-                retries: 3
-                timeout: 5s
-    networks:
-        sail:
-            driver: bridge
-    volumes:
-        sail-mysql:
-            driver: local
-        sail-redis:
-            driver: local
+        image: 'redis:alpine'
+        volumes:
+            - 'sail-redis:/data'
+        networks:
+            - samira_travel_net
+        healthcheck:
+            test:
+                - CMD
+                - redis-cli
+                - ping
+            retries: 3
+            timeout: 5s
+
+networks:
+    samira_travel_net:
+        driver: bridge
+
+volumes:
+    sarbon-mysql:   # YANGI MYSQL VOLUME
+        driver: local
+    sail-redis:
+        driver: local
