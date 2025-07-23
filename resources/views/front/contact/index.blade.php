@@ -69,7 +69,7 @@
                 <div class="col-lg-4">
                     <div class="contact-about footer-margin">
                         <div class="about-logo">
-                            <img src="{{$logo ?? '/assets/images/mit/logo6.png'}}" alt="banner" height="80" style="object-fit: contain; width: 50%;">
+                            <img src="{{$logo ?? '/assets/images/sarbon/logo3.png'}}" alt="banner" height="80" style="object-fit: contain; width: 50%;">
                         </div>
                         <h4>@lang('Travel With Us')</h4>
                         <p>{{ $description }}</p>

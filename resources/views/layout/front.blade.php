@@ -9,11 +9,11 @@
     <meta property="og:title" content="@yield('title') - {{__('SARBON TRIP MChJ')}}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ Request::url() }}" />
-    <meta property="og:image" content="/assets/images/mit/logo6.png" />
+    <meta property="og:image" content="/assets/images/sarbon/logo3.png" />
     <meta property="og:description" content="SARBON TRIP MChJ – sayohat dunyosiga sarguzashtingizni boshlash uchun ideal tanlov! Biz sizni eng go'zal va nafis joylarga olib boramiz. SARBOT TRIP dunyoning turli burchaklariga, madaniyatlar bilan tanishish va yangi tajribalar orttirish imkoniyatini taqdim etadi. Bizning professional va mehribon jamoamiz har bir sayohatchiga shaxsiy yondashuvni ta'minlaydi va ularga unutilmas taassurotlar qoldirishni kafolatlaydi. Bizning sayohatlarimiz turli xil bo'lib, ular orasida ekskursiyalar, dam olish sayohatlari, ekoturizm, shahar turlari va boshqalar mavjud. Sayohatingizni SARBOT TRIP bilan rejalashtiring va dunyoni yangicha ko'z bilan kashf eting!" />
     <meta property="og:site_name" content="AGN " />
 
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/mit/logo6.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/sarbon/logo3.png">
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
     <link href="/assets/font/flaticon.css" rel="stylesheet" type="text/css">
